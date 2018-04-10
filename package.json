@@ -1,0 +1,25 @@
+{
+  "name": "vicBioApi",
+  "version": "1.0.0",
+  "description": "REST API for the Victorian Biodiversity Atlas",
+  "main": "main.js",
+  "repository": "git@github.com/JohanCodinha/vicBioApi.git",
+  "author": "Johan Codinha <johan@codinha.net>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint",
+    "test": "node_modules/.bin/ava tests/**/*.test.js --verbose",
+    "test:watch": "node_modules/.bin/ava --verbose --watch"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "supertest": "^3.0.0"
+  }
+}
